@@ -4,7 +4,7 @@ import csv
 
 
 @click.command()
-@click.option("-f", "--file", default=None, help="Name csv file to beautify.")
+@click.option("-f", "--file", default=None, help="Name of the csv file to beautify.")
 def beautify(file):
     # Initialize data
     column_names = []
